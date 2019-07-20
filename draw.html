@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Canvas</title>
+</head>
+
+<body>
+    <br>
+    <h2 style="text-align: center;">Welcome to my drawing board! </h2>
+    <div style="text-align: center; ">
+        <button onclick="red()" style="color: red" class="btn">Red</button>
+        <button onclick="yellow()" style="color: yellow" class="btn">Yellow</button>
+        <button onclick="green()" style="color: green" class="btn">Green</button>
+        <button onclick="blue()" style="color: blue" class="btn">Blue</button>
+        <button onclick="orange()" style="color: orange" class="btn">Orange</button>
+        <button onclick="pink()" style="color: pink" class="btn">Pink</button>
+        <button onclick="indigo()" style="color: indigo" class="btn">Indigo</button>
+        <br>
+        <br>
+        <div style="text-align: center; ">
+            <input type="radio" id="radiobtn" onclick="small()"> Small Stroke &nbsp &nbsp
+            <input type="radio" id="radiobtn" onclick="medium()"> Medium Stroke &nbsp &nbsp
+            <input type="radio" id="radiobtn" onclick="large()"> Large Stroke
+            <b><i><p>** Unleash your creativity now **</p></i></b>
+            <hr>
+            <canvas id="draw" width="800" height="800"></canvas>
+        </div>
+        <script>
+            const canvas = document.querySelector('#draw');
+            const ctx = canvas.getContext('2d');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            ctx.strokeStyle = '#BADA55';
+            ctx.lineJoin = 'round';
+            ctx.lineCap = 'round';
+            ctx.lineWidth = 20;
+            // ctx.globalCompositeOperation = 'multiply';
+            let isDrawing = false;
+            let lastX = 0;
+            let lastY = 0;
+            let hue = 10;
+            let direction = true;
+
+            function draw(e) {
+                if (!isDrawing) return;
+                ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+                ctx.beginPath();
+                ctx.moveTo(lastX, lastY);
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.stroke();
+                [lastX, lastY] = [e.offsetX, e.offsetY];
+
+            }
+            canvas.addEventListener('mousedown', (e) => {
+                isDrawing = true;
+                [lastX, lastY] = [e.offsetX, e.offsetY];
+            });
+            canvas.addEventListener('mousemove', draw);
+            canvas.addEventListener('mouseup', () => isDrawing = false);
+            canvas.addEventListener('mouseout', () => isDrawing = false);
+
+            function red() {
+                hue = 10;
+            }
+
+            function orange() {
+                hue = 30;
+            }
+
+            function yellow() {
+                hue = 60;
+            }
+
+            function green() {
+                hue = 100;
+            }
+
+            function blue() {
+                hue = 210;
+            }
+
+            function pink() {
+                hue = 330;
+            }
+
+            function indigo() {
+                hue = 290;
+            }
+
+            function small() {
+                ctx.lineWidth = 5;
+            }
+
+            function medium() {
+                ctx.lineWidth = 19;
+            }
+
+            function large() {
+                ctx.lineWidth = 19;
+            }
+        </script>
+
+        <style>
+            html,
+            body {
+                margin: 0;
+            }
+            
+            .btn {
+                font-size: 20px;
+                margin-right: 40px;
+                background-color: rgba(255, 255, 255, 0);
+                box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #bbb
+            }
+            
+            #radiobtn {
+                font-size: 20px;
+                margin-right: 20px;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        </style>
+
+</body>
+
+</html>
