@@ -20,9 +20,12 @@
         <br>
         <br>
         <div style="text-align: center; ">
-            <input type="radio" id="radiobtn" onclick="small()"> Small Stroke &nbsp &nbsp
-            <input type="radio" id="radiobtn" onclick="medium()"> Medium Stroke &nbsp &nbsp
-            <input type="radio" id="radiobtn" onclick="large()"> Large Stroke
+            <input type="radio" class="radiobtn" id="small" name="brush" onclick="small()">
+            <label for ="Small">Small Stroke</label>
+            <input type="radio" id="radiobtn" id="medium" name="brush"  onclick="medium()"> 
+            <label for ="medium">Medium Stroke</label>
+            <input type="radio" id="radiobtn" id="large" name="brush"  onclick="large()">
+            <label for ="large">Large Stroke</label>
             <b><i><p>** Unleash your creativity now **</p></i></b>
             <hr>
             <canvas id="draw" width="800" height="800"></canvas>
@@ -115,7 +118,7 @@
                 box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #bbb
             }
             
-            #radiobtn {
+            .radiobtn {
                 font-size: 20px;
                 margin-right: 20px;
                 background-color: rgba(255, 255, 255, 0);
