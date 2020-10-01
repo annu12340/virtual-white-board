@@ -18,3 +18,8 @@ A simple Webapp for drawing.
     2.Double Click and open the draw.html file in Browser
     3.Its Done! Unleash your creativity with the easy and quickly accessible Drawing Board!
     
+### Languages Used to create Drawing-Sheet:
+    **HTML**
+    **CSS**
+    **JAVASCRIPT**
+    
