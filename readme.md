@@ -1,166 +1,72 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">YOUR_TITLE</h3>
-
-  <p align="center">
-    YOUR_SHORT_DESCRIPTION
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
+    <h2 align="center">Drawing Sheet</h2>
+    <p align="center">This is a javascript based simple html page application which is similar to ms paint. Here you can draw your creative arts with few variation of colors and thickness of your marker. The color pallete has 7 different colors for selection **(Red , Yello , Green , Blue, Orange, Pink and Indigo)**. Along with colors it has three different strokes as **(Small , Medium and Large)**</p>
+</p>
+    
+<p align="center">
+    <a href="https://github.com/annu12340/drawing-sheet/network/members">
+        <img alt="Forks" src="https://img.shields.io/github/forks/annu12340/drawing-sheet?color=9d65c9" />
+    </a>
+    <a href="https://github.com/annu12340/drawing-sheet/stargazers">
+        <img alt="Forks" src="https://img.shields.io/github/stars/annu12340/drawing-sheet?color=f0a500" />
+    </a>
+    <a href="https://github.com/annu12340/drawing-sheet/graphs/contributors">
+        <img alt="Contributors" src="https://img.shields.io/github/contributors/annu12340/drawing-sheet?color=0088ff" />
+    </a>
+    <a href="https://github.com/annu12340/drawing-sheet/issues">
+        <img alt="Issues" src="https://img.shields.io/github/issues/annu12340/drawing-sheet?color=ff4b5c" />
+    </a>
+    <a href="https://github.com/annu12340/drawing-sheet/pulls">
+        <img alt="Pull Request" src="https://img.shields.io/github/issues-pr/annu12340/drawing-sheet?color=4CAF50" />
+    </a>
+    <br/>
+    <br/>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
-
-
-<!-- GETTING STARTED -->
+<<!-- GETTING STARTED -->
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### 1) Choose colors (Up to 7 color choice)
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
 ```sh
-npm install npm@latest -g
+1. Red
+2. Yellow
+3. Green
+4. Blue
+5. Orange
+6. Pink
+7. Indigo
+```
+### 2) Choose strokes (Up to 3 color strokes)
+
+```sh
+1. Small Stroke
+2. Medium Stroke
+3. Large Stroke
 ```
 
-### Installation
+### 3) Instructions how to use the Drawing Board
 
-1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo_name.git
-```
-2. Install NPM packages
-```sh
-npm install
+1. Download the file or Pull it.
+2. Double Click and open the draw.html file in Browser
+3. Its Done! Unleash your creativity with the easy and quickly accessible Drawing Board!
 ```
 
+<!-- Tech Used -->
+## Tech Used
 
+* [](HTML)
+* [](CSS)
+* [](JS)
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Screenshot -->
+## Screenshot
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![Screenshot 1][https://lifecode.imfast.io/Draw.png]
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+</br>
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=flat-square
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=flat-square
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=flat-square
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=flat-square
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=flat-square
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
-[product-screenshot]: images/screenshot.png
+![Screenshot 2][img.jpg]
