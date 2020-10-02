@@ -58,9 +58,9 @@ To get a local copy up and running follow these simple steps.
 <!-- Tech Used -->
 ## Tech Used
 
-* [](HTML)
-* [](CSS)
-* [](JS)
+* [HTML]
+* [CSS]
+* [JS]
 
 <!-- Screenshot -->
 ## Screenshot
@@ -69,5 +69,5 @@ To get a local copy up and running follow these simple steps.
 
 ![Product Name Screen Shot][product-screenshot-2]
 
-[product-screenshot-1]: images/screenshot.png
-[product-screenshot-2]: images/screenshot.png
+[product-screenshot-1]: Draw.png
+[product-screenshot-2]: img.png
