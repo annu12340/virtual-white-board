@@ -65,8 +65,8 @@ To get a local copy up and running follow these simple steps.
 <!-- Screenshot -->
 ## Screenshot
 
-![Screenshot 1][https://lifecode.imfast.io/Draw.png]
+![Screenshot 1][images/screenshot.png]
 
 </br>
 
-![Screenshot 2][img.jpg]
+![Screenshot 2][images/screenshot.png]
