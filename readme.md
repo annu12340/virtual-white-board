@@ -58,9 +58,9 @@ To get a local copy up and running follow these simple steps.
 <!-- Tech Used -->
 ## Tech Used
 
-* [HTML]
-* [CSS]
-* [JS]
+* HTML
+* CSS
+* JS
 
 <!-- Screenshot -->
 ## Screenshot
