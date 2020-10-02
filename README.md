@@ -69,5 +69,5 @@ To get a local copy up and running follow these simple steps.
 
 ![Product Name Screen Shot][product-screenshot-2]
 
-[product-screenshot-1]: Draw.png
+[product-screenshot-1]: draw.png
 [product-screenshot-2]: img.jpg
