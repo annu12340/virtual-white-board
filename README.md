@@ -1,14 +1,10 @@
 
 # Drawing Sheet 
-This is a javascript based simple html page application which is similar to ms paint.
-Here you can draw your creative arts with few variation of colors and thickness of your marker.
-The color pallete has 7 different colors for selection **( Red,Yellow,Green,Blue,Orange,Pink and Indigo)**. Along with colors it has three different strokes as **(Small,Medium and Large)**
-<br>
 
-## Tech-Stack
-- HTML
-- CSS
-- Javascript
+This is a javascript based simple html page application which is similar to ms paint. Here you can draw your creative arts with few variation of colors and thickness of your marker.
+We can use it for online classes to help students understand better by using it for writing. We can customize our pen strokes with the options given like small,medium and large stroke.
+There is an option to choose colors inorder to differentiate the context. It will be a great tool for online teaching.
+<br>
 
 #### You can choose 7 different colors:
     1.RED
@@ -27,19 +23,14 @@ The color pallete has 7 different colors for selection **( Red,Yellow,Green,Blue
     2.Double Click and open the draw.html file in Browser
     3.Its Done! Unleash your creativity with the easy and quickly accessible Drawing Board!
     
-### Languages Used to create Drawing-Sheet:
+### Tech-Stack
     **HTML**
     **CSS**
     **JAVASCRIPT**
+    
 ### Check Some Screenshot for more info:
-<img src="https://lifecode.imfast.io/Draw.png" alt="drawing" width="800" height="500"/>
 <img src="https://github.com/anshumyname/drawing-sheet/blob/master/img.jpg">
+<img src="https://lifecode.imfast.io/Draw.png" alt="drawing" width="800" height="500"/>
 
 
-# drawing-sheet
 
-This Drawing-Sheet is a kind of tool which has similar functions like in paint.
-We can use it for online classes to help students understand better by using it for writing.
-We can customize our pen strokes with the options given like small,medium and large stroke.
-There is an option to choose colors inorder to differentiate the context.
-It will be a great tool for online teaching.
