@@ -67,8 +67,6 @@ To get a local copy up and running follow these simple steps.
 
 ![Product Name Screen Shot][product-screenshot-1]
 
-</br>
-
 ![Product Name Screen Shot][product-screenshot-2]
 
 [product-screenshot-1]: images/screenshot.png
