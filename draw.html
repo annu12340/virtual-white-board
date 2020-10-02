@@ -20,13 +20,14 @@
         <br>
         <br>
         <div style="text-align: center; ">
-            <input type="radio" id="radiobtn" onclick="small()"> Small Stroke &nbsp &nbsp
-            <input type="radio" id="radiobtn" onclick="medium()"> Medium Stroke &nbsp &nbsp
-            <input type="radio" id="radiobtn" onclick="large()"> Large Stroke
+            <input type="radio" id="radiobtn" onclick="small()" name="radio_name" > Small Stroke &nbsp &nbsp
+            <input type="radio" id="radiobtn" onclick="medium()" name="radio_name" > Medium Stroke &nbsp &nbsp
+            <input type="radio" id="radiobtn" onclick="large()" name="radio_name" > Large Stroke
             <b><i><p>** Unleash your creativity now **</p></i></b>
             <hr>
             <canvas id="draw" width="800" height="800"></canvas>
         </div>
+    
         <script>
             const canvas = document.querySelector('#draw');
             const ctx = canvas.getContext('2d');
