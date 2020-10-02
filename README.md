@@ -27,8 +27,8 @@ A simple Webapp for drawing.
 
 # drawing-sheet
 
-This drawingsheet is a kind of tool which has similar functions like in paint.
+This Drawing-Sheet is a kind of tool which has similar functions like in paint.
 We can use it for online classes to help students understand better by using it for writing.
-We can customize our pen stroke with the options given like small stroke,medium and large stroke.
-There is an option to choose colors inorder to differentiate the conext.
-
+We can customize our pen strokes with the options given like small,medium and large stroke.
+There is an option to choose colors inorder to differentiate the context.
+It will be a great tool for online teaching.
