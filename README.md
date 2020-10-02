@@ -2,7 +2,7 @@
 # Drawing Sheet 
 This is a javascript based simple html page application which is similar to ms paint.
 Here you can draw your creative arts with few variation of colors and thickness of your marker.
-The color pallete has 7 different colors for selection **( Red , Yello , Green , Blue, Orange, Pink and Indigo)**. Along with colors it has three different strokes as **( Small , Medium and Large )**
+The color pallete has 7 different colors for selection **( Red,Yellow,Green,Blue,Orange,Pink and Indigo)**. Along with colors it has three different strokes as **(Small,Medium and Large)**
 <br>
 
 ## Tech-Stack
@@ -36,3 +36,10 @@ The color pallete has 7 different colors for selection **( Red , Yello , Green ,
 <img src="https://github.com/anshumyname/drawing-sheet/blob/master/img.jpg">
 
 
+# drawing-sheet
+
+This Drawing-Sheet is a kind of tool which has similar functions like in paint.
+We can use it for online classes to help students understand better by using it for writing.
+We can customize our pen strokes with the options given like small,medium and large stroke.
+There is an option to choose colors inorder to differentiate the context.
+It will be a great tool for online teaching.
