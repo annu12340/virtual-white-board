@@ -1,6 +1,6 @@
 <p align="center">
     <h2 align="center">Drawing Sheet</h2>
-    <p align="center">This is a javascript based simple html page application which is similar to ms paint. Here you can draw your creative arts with few variation of colors and thickness of your marker. The color pallete has 7 different colors for selection **(Red , Yello , Green , Blue, Orange, Pink and Indigo)**. Along with colors it has three different strokes as **(Small, Medium and Large)**</p>
+    <p align="center">This is a javascript based simple html page application which is similar to ms paint. Here you can draw your creative arts with few variation of colors and thickness of your marker. The color pallete has 7 different colors for selection (Red, Yellow, Green, Blue, Orange, Pink and Indigo). Along with colors it has three different strokes as (Small, Medium and Large)</p>
 </p>
     
 <p align="center">
