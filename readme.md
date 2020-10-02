@@ -65,8 +65,11 @@ To get a local copy up and running follow these simple steps.
 <!-- Screenshot -->
 ## Screenshot
 
-![Screenshot 1][images/screenshot.png]
+![Product Name Screen Shot][product-screenshot-1]
 
 </br>
 
-![Screenshot 2][images/screenshot.png]
+![Product Name Screen Shot][product-screenshot-2]
+
+[product-screenshot-1]: images/screenshot.png
+[product-screenshot-2]: images/screenshot.png
