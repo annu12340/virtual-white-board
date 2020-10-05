@@ -29,4 +29,4 @@ There is an option to choose colors inorder to differentiate the context. It wil
     
 ### Check Some Screenshot for more info:
 <img src="https://github.com/anshumyname/drawing-sheet/blob/master/img.jpg">
-<img src="https://github.com/annu12340/drawing-sheet/blob/master/paint.png">
+<img src="https://github.com/maarthi28/drawing-sheet/blob/master/paint.png">
